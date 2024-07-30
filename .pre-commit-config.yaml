@@ -6,4 +6,4 @@ repos:
         entry: python custom-hooks/custom_check.py
         language: system
         types: [python]
-        files: ^src/
+        files: src/

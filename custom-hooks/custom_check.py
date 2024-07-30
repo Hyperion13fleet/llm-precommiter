@@ -45,4 +45,5 @@ def check_files(directory: str) -> int:
 if __name__ == '__main__':
     import sys
     directory = sys.argv[1]
+    print(f"directory: {directory}")
     sys.exit(check_files(directory))
